@@ -1,0 +1,3 @@
+# Arquivos listados dentro do gitignore não serão monitorados pelo git
+# Para listar arquivos, usamos somende o nome do arquivo e sua extensão. Ex: banner.jpg
+# Para listar pastas a serem ignoradas, utilizamos o nome da pasta seguido de barra "/". Ex: assets/
