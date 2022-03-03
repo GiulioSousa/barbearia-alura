@@ -53,8 +53,33 @@
 }
 
 .beneficios {
-	background: #FFFFFF;
-	padding: 20px;
+	background: linear-gradient(#888888, #444);
+	padding: 3rem 0;
+}
+
+.conteudo-beneficios {
+	display: flex;
+	width: 40rem;
+	margin: 0 auto;
+}
+
+.lista-beneficios {
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.lista__item {
+	line-height: 1.5rem;
+}
+
+.lista__item:first-child {
+	font-weight: 700;
+}
+
+.lista__item::before {
+	content: "\2704";
+	padding-right: .5rem;
 }
 
 ul {
@@ -69,12 +94,30 @@ ul {
 }
 
 .imagemBeneficios {
-	width: 50%;
+	width: 60%;
+	transition: .4s;
+	box-shadow: .25rem .25rem 1.5rem #000;
+}
+
+.imagemBeneficios:hover {
+	opacity: 0.5;
+}
+
+.secao__video {
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	background: linear-gradient(#444, #111);
+}
+
+.video {
+	padding: 60px 0;
+	
 }
 
 footer {
 	text-align: center;
-	background: url("bg.jpg");
+	background: url("../img/bg.jpg");
 	padding: 40px 0;
 }
 
